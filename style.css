@@ -428,7 +428,7 @@ h1{
     justify-content: space-between;
     
 }
-.color{
+.color1{
     height: 24px;
     width: 52px;
     display: flex;
@@ -1084,4 +1084,19 @@ h1{
     height: 25px;
     width: 112px;
 
+}
+.all{
+    background-color:#FFF5F0;
+}
+
+.color2{
+    background-color: #FFF5F0;
+}
+
+.color3{
+    background-color: #FAFAFA;
+}
+
+.color{
+    background-color: #FFF5F0;
 }
