@@ -57,6 +57,10 @@ li{
     border-radius:5px;
     font-weight: 700;
     border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap:15px;
 }
 
 ul{
@@ -1099,4 +1103,7 @@ h1{
 
 .color{
     background-color: #FFF5F0;
+}
+.fa-arrow-right:before{
+    color:white;
 }
