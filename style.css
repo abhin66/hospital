@@ -53,8 +53,6 @@ li{
 
 .button{
     color:white;
-    height: 52px;
-    width: 137px;
     border-radius:5px;
     font-weight: 700;
     border: none;
@@ -62,6 +60,7 @@ li{
     align-items: center;
     display: flex;
     gap:15px;
+    padding:15px 25px;
 }
 
 ul{
@@ -98,11 +97,11 @@ ul{
 
 .joinus{
     height: 52px; 
-    width: 133px; 
     border-radius: 5px;
     border-style: none;
     background-color: #1BA0AB;  
     color:white;
+    padding: 15px 40px;
 }
 
 .learnmore{
@@ -113,7 +112,7 @@ ul{
     background-color:transparent;
     color: #1BA0AB;
     border-width: 1px;
-}
+}    
 
 .detailsbutton{
     display: flex;
