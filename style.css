@@ -13,11 +13,11 @@
     max-width: 1425px;
 }
 
-.body{
+/* .body{
     height:777px;
     width: 1440px;
     background-color:#FFF5F0;
-}
+} */
 
 nav{
     width:1322px;
@@ -78,23 +78,22 @@ ul{
     height:682px;
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     gap:180px;
+    padding-left: 100px;
 }
 
 .content{
     height: 356px;
     width: 573px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     max-width: 455px;
     display: grid;
 
 }
 
 .image{
-    
-    width: 700px;
     padding-top: 5px;
-    flex:1;
 }
 
 .joinus{
@@ -151,6 +150,8 @@ h1{
 .activity{  
     height: 246px;
     width: 507px;
+    display: grid;
+    gap:40px;
 }
 
 .queriebook{
@@ -167,9 +168,7 @@ h1{
 }
 
 .ouractivity{
-    margin-top:40px;
     font-size:40px;
-    margin-bottom:40px;
 }
 
 .para1{
@@ -177,7 +176,6 @@ h1{
     max-width: 380px;
     font-size: 14px;
     color:#737373;
-    margin-bottom: 40px;
 }
 
 .learnmore{
@@ -186,7 +184,7 @@ h1{
 }
 
 .booknow{
-    height:292px;
+    /* height:292px; */
     width: 249px;
     box-shadow: 0px 13px 19px 0px #00000012;
     border-radius: 10px;
@@ -194,8 +192,8 @@ h1{
 }
 
 .queries{
-    height:292px;
-    width: 239px;
+    /* height:292px; */
+    width: 249px;
     box-shadow: 0px 13px 19px 0px #00000012;
 
 
@@ -206,6 +204,8 @@ h1{
     padding-right:40px;
     padding-bottom:35px;
     padding-left:40px;
+    display: grid;
+    gap: 25px;
  
 }
 
@@ -221,23 +221,13 @@ h1{
     font-size: 14px;
 }
 
-.heartimg{
-    margin-bottom: 25px;
-}
-
-.booking{
-    margin-bottom: 25px;
-}
-
-.rect{
-    margin-bottom: 25px;
-}
-
 .qnow{
     padding-top:35px;
     padding-right:40px;
     padding-bottom:35px;
     padding-left:40px;
+    display: grid;
+    gap:25px;
 }
 
 .queries{
@@ -346,6 +336,7 @@ h1{
     height: 378px;
     width: 290px;
     display: grid;
+    margin-left: 25px;
 }
 
 
@@ -367,8 +358,6 @@ h1{
     text-align: center;
     justify-content:space-between;
     padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
     gap:10px;
 }
 
@@ -386,8 +375,6 @@ h1{
 
 .examination{
     font-size: 16px;
-    padding-right: 25px;
-    padding-left: 25px;
 }
 
 .focus{
@@ -395,16 +382,13 @@ h1{
     font-size: 14px;
     color:#737373;
     max-width: 232px;
-    padding-right: 25px;
-    padding-left: 25px;
 }
 
 .download{
     height: 24px;
-    width: 83px;
-    margin-left:25px;
+    /* width: 83px; */
     display:flex;
-    gap:10px;
+    /* gap:10px; */
     align-items: center;
 }
 
@@ -413,10 +397,10 @@ h1{
     color: #737373;
 }
 
-.sale{
+/* .sale{
     align-items: center;
 
-}
+} */
 
 .sales{
     font-size: 12px;
@@ -426,11 +410,10 @@ h1{
 .prices{
     height: 34px;
     width: 108px;
-    margin-left:25px;
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    justify-content: space-between;
+    gap:5px;
     
 }
 .color1{
@@ -453,8 +436,6 @@ h1{
 
     height:46px;
     width: 242px;
-    margin-right: 25px;
-    margin-left: 25px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -535,7 +516,6 @@ h1{
 .learnbutton{
     height:44px;
     width:141.14px;
-    margin-left: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -565,7 +545,7 @@ h1{
 
 .discount{
     height: 24px;
-    width: 51px;
+    /* width: 51px; */
     background-color:#E74040;
     position: absolute;
     border-radius: 3px;
@@ -581,6 +561,9 @@ h1{
     color:#FFFFFF;
     font-weight: 700;
     font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
 }
 
 .purchase{
@@ -591,6 +574,7 @@ h1{
     gap:10px;
     bottom: 25px;
     left: 35px;
+    justify-content: center;
 }
 
 .like{
@@ -802,6 +786,7 @@ h1{
     width:1049px;
     gap:32px;
     display: flex;
+    justify-content: center;
 }
 
 .member{
@@ -833,7 +818,8 @@ h1{
     width: 112px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
 
 .fa-facebook:before{
@@ -908,6 +894,8 @@ h1{
     padding-left:20px;
     font-size: 15px;
     font-weight: 400;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     
 }
 
@@ -919,6 +907,8 @@ h1{
     font-size: 14px;
     color:#FFFFFF;
     font-weight: 400;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 ::placeholder{
@@ -1023,7 +1013,7 @@ h1{
     text-decoration: none;
     color:#737373;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
     
 }
