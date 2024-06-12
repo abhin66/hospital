@@ -10,7 +10,7 @@
 
 .container{
     margin: auto;
-    max-width: 1425px;
+    max-width: 1400px;
 }
 
 .container-header{
@@ -85,13 +85,15 @@ ul{
     padding-top: 5px;
 }
 
-.learnmore{
+.link{
     border-radius: 5px;
     background-color:transparent;
     color: #1BA0AB;
     font-size: 14px;
     border: 1px solid #1BA0AB;
-    padding: 15px 40px;
+    /* padding: 15px 40px; */
+    border: none;
+    padding-left: 0px;
 }    
 
 .gap{
@@ -107,7 +109,7 @@ h1{
     justify-content: center;
 }
 
-.activity-section-container{
+.section-data{
     display: flex;
     align-items: center;
     padding:160px 0px;
@@ -118,13 +120,13 @@ h1{
     font-size:52px;
 }
 
-.activity-section-content{
+.page-section-content{
     display: flex;
     align-items: center;
     gap:25px;
 }
 
-.activity-section{  
+.section-content{  
     padding:0px 160px 0px 0px;
     display: grid;
     gap:40px;
@@ -211,7 +213,7 @@ h1{
 
 }
 
-.expert-section{
+.page-section{
     display: flex;
     justify-content: space-evenly;
     width:100%;
@@ -224,10 +226,11 @@ h1{
     justify-content: right;
 }
 
-.expert-section-contents{
+.padding{
     max-width: 381px;
     display: grid;
     gap: 38px;
+    padding-right:0px;
 }
 
 
@@ -241,20 +244,20 @@ h1{
     justify-content: center;
 }
 
-.refer-section-contents{
+.section-data-content{
     display: grid;
     gap: 96px;
     padding:160px 0px;
 }
 
-.refer-section-content{
+.section-heading{
     max-width: 691px;
     margin-top:160px;
     display: grid;
     gap:20px;
 }
 
-.refer-cards{
+.reference-cards{
     display: flex;
     gap:100px;
 }
@@ -407,7 +410,7 @@ h1{
     color:#737373;
 }
 
-.learnbutton{
+.lr-btn{
     height:44px;
     width:141.14px;
     display: flex;
@@ -531,15 +534,15 @@ h1{
     justify-content: center;
 }
 
-.impression-content{
+.section-heading{
     max-width: 691px;
     margin-top: 160px;
-    gap:10px;
+    gap:15px;
     display: flex;
     flex-direction: column;
 }
 
-.impression-contents{
+.container-data{
     margin-top: 120px;
     display: flex;
     gap: 34px;
@@ -613,19 +616,19 @@ h1{
     font-weight: 400;
 } */
 
-.team-page{
+.page{
     display:flex;
     justify-content: center ;
     padding:112px 0px;
 }
 
-.team-page-contents{
+.page-contents{
     gap:112px;
     display: flex;
     flex-direction: column;
 }
 
-.teamdetails{
+.section-heading{
     margin-top:116px;
     gap: 15px;
     display: flex;
@@ -645,7 +648,7 @@ h1{
 
 }
 
-.team-members{
+.member-card{
     gap:32px;
     display: flex;
     justify-content: center;
@@ -788,32 +791,9 @@ h1{
     display: flex;
 }
 
-.firstcolumn{
+.column{
     display: grid;
     gap: 20px;
-}
-
-
-.secondcolumn{
-    display: grid;
-    gap: 20px;
-}
-
-.thirdcolumn{
-    display: grid;
-    gap: 20px;
-}
-
-.forthcolumn{
-    display: grid;
-    gap: 20px;
-
-}
-
-.fifthcolumn{
-    display: grid;
-    gap: 20px;
-
 }
 
 .company{
@@ -943,4 +923,21 @@ h1{
     font-size: 14px;
     border: 1px solid #1BA0AB;
     padding: 15px 40px;
+}
+
+.container-xl{
+    max-width:1450px;
+    margin:auto;
+}
+
+.button-ln{
+    gap:5px;
+    display:flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+
+.fa-greater-than::before{
+    color:#1BA0AB;
 }
