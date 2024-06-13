@@ -75,8 +75,9 @@ ul{
 .hero-page-discription{
     display: flex;
     align-items: center;
-    gap:180px;
+    /* gap:180px; */
     padding-left: 100px;
+    justify-content: space-between;
 }
 
 .heropage-content{
