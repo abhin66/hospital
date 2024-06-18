@@ -303,7 +303,7 @@ h1{
     display:flex;
     text-align: center;
     justify-content:space-between;
-    padding-top: 25px;
+    padding-top: 10px;
     gap:10px;
 }
 
@@ -449,6 +449,7 @@ h1{
 
 .rating span{
     font-size: 16px;
+    color:#FFCE31;
 }
 
 .sale-label{
@@ -589,12 +590,13 @@ h1{
     justify-content: center;
 }
 
-.star5 span{
+.star-nobg span{
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 20
+  'opsz' 20;
+   color: #F3CD03;
 }
 
 .miles{
@@ -923,6 +925,8 @@ h1{
 
 .borderless{
     background: none;
+    color:#1BA0AB;
+    font-weight: 700;
 }
 
 .nobg{
@@ -962,4 +966,45 @@ body{
 
 .section-gap{
     padding:80px 0px;
+}
+
+.txt-color{
+    color:#1BA0AB; 
+    font-size:16px;
+}
+.dark-txt{
+    font-weight: 400px; 
+    font-size: 20px; 
+    color:#737373;
+}
+
+.material-symbols-outlined{
+    color:#252B42;
+}
+
+/* .rating material-symbols-outlined{
+
+} */
+
+.icon-download span{
+    color:#737373
+}
+
+.calender span{
+    color:#1BA0AB;
+}
+
+.progress span{
+    color:#F69B25;
+}
+
+.lesson span{
+    color:#E77C40;
+}
+
+.lr-btn span{
+    color:#1BA0AB;
+}
+.star-icon span{
+    color: #F3CD03;
 }
