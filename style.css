@@ -1,7 +1,5 @@
 /* css */
 *{
-    margin:0;
-    padding:0;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -15,7 +13,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .container{
     margin: auto;
-    max-width: 1400px;
+    max-width: 1150px;
 }
 
 .container-header{
@@ -28,7 +26,7 @@ nav{
     display: flex;
     align-items: center;
     gap:165px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 li{
@@ -66,17 +64,21 @@ ul{
     display: flex;
     gap:30px;
 }
+img{
+    max-width: 100%;
+}
 
 .menu{
     display: flex;
     gap:70px;
+    align-items:center;
 }
 
 .hero-page-discription{
     display: flex;
     align-items: center;
     /* gap:180px; */
-    padding-left: 100px;
+    /* padding-left: 100px; */
     justify-content: space-between;
 }
 
@@ -116,12 +118,12 @@ h1{
     justify-content: center;
 }
 
-.section-data{
-    display: flex;
+/* .section-data{
+    /* display: flex;
     align-items: center;
     padding:160px 0px;
 
-}
+*/
 
 .txt-bold{
     font-size:52px;
@@ -131,10 +133,11 @@ h1{
     display: flex;
     align-items: center;
     gap:25px;
+    justify-content: space-between;
 }
 
 .section-content{  
-    padding:0px 160px 0px 0px;
+    /* padding:0px 160px 0px 0px; */
     display: grid;
     gap:40px;
 }
@@ -142,8 +145,9 @@ h1{
 .cards{
     height: 292px;
     width: 508px;
-    display:flex;
+    display:grid;
     gap:24px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .rectangle{
@@ -222,7 +226,7 @@ h1{
 
 .page-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width:100%;
 }
 
@@ -254,19 +258,19 @@ h1{
 .section-data-content{
     display: grid;
     gap: 96px;
-    padding:160px 0px;
 }
 
 .section-heading{
     max-width: 691px;
-    margin-top:160px;
+    /* margin-top:160px; */
     display: grid;
     gap:20px;
 }
 
 .reference-cards{
-    display: flex;
+    display: grid;
     gap:100px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .img-card{
@@ -543,7 +547,7 @@ h1{
 
 .section-heading{
     max-width: 691px;
-    margin-top: 160px;
+    /* margin-top: 160px; */
     gap:15px;
     display: flex;
     flex-direction: column;
@@ -625,8 +629,8 @@ h1{
 
 .page{
     display:flex;
-    justify-content: center ;
-    padding:112px 0px;
+    /* justify-content: center ; */
+    /* padding:112px 0px; */
 }
 
 .page-contents{
@@ -636,7 +640,7 @@ h1{
 }
 
 .section-heading{
-    margin-top:116px;
+    /* margin-top:116px; */
     gap: 15px;
     display: flex;
     flex-direction: column;
@@ -657,7 +661,8 @@ h1{
 
 .member-card{
     gap:32px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
 }
 
@@ -740,7 +745,7 @@ h1{
     font-size: 14px;
     font-weight: 400;
     color:#737373;
-    max-width: 469px;
+    max-width: 355px;
     align-self: center;
 }
 
@@ -782,20 +787,21 @@ h1{
     display: flex;
 }
 
-.footer{
+.footer-down{
     display: flex;
     justify-content: center;
 }
 
 .footer-contents{
-    padding: 50px 0px 50px 0px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
 }
 
 .footer-inside{
-    gap:60px;
-    display: flex;
+    /* gap:60px; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .column{
@@ -808,13 +814,13 @@ h1{
 }
 
 .compinfo{
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     color:#737373;
 }
 
 .call{
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     color:#737373;
     display: flex;
@@ -828,11 +834,11 @@ h1{
 }
 
 .location{
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     color:#737373;
     display: flex;
-    gap: 10px;
+    gap: 16px;
     align-items: center;
     max-width: 321px;
     
@@ -844,7 +850,7 @@ h1{
 }
 
 .mail{
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     color:#737373;
     display: flex;
@@ -859,13 +865,9 @@ h1{
 
 .copyright{
     background-color: #FAFAFA;  
-    display: flex;
-    justify-content: center;
 }
 
 .copyright-section{
-    display: flex;
-    align-items: center;
     padding: 25px 0px 25px 0px;
 }
 
@@ -873,7 +875,6 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:570px;
 }
 
 .copyright-owner{
@@ -933,7 +934,7 @@ h1{
 }
 
 .container-xl{
-    max-width:1450px;
+    max-width:1250px;
     margin:auto;
 }
 
@@ -947,4 +948,17 @@ h1{
 
 .fa-greater-than::before{
     color:#1BA0AB;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+.navbar-container{
+    margin: auto;
+    max-width: 1150px;
+}
+
+.section-gap{
+    padding:80px 0px;
 }
