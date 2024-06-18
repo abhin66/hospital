@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .container{
     margin: auto;
-    max-width: 1150px;
+    max-width: 1080px;
 }
 
 .container-header{
@@ -875,6 +875,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .copyright-owner{
@@ -934,7 +935,7 @@ h1{
 }
 
 .container-xl{
-    max-width:1250px;
+    max-width:1230px;
     margin:auto;
 }
 
@@ -956,7 +957,7 @@ body{
 }
 .navbar-container{
     margin: auto;
-    max-width: 1150px;
+    max-width: 1080px;
 }
 
 .section-gap{
