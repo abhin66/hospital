@@ -478,11 +478,12 @@ h1{
     top:10px;
 
 }
-.sale{
-    color:#FFFFFF;
+.sale {
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 14px;
-    padding:5px 10px;
+    padding: 5px 10px;
+    max-width: 171px;
 }
 
 .icon{
