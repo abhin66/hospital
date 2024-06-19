@@ -716,7 +716,7 @@ h1{
     font-size: 23px;
     color:#1BA0AB;
 }
-.human{
+.members{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -822,7 +822,7 @@ h1{
 
 .column{
     display: grid;
-    gap: 20px;
+    gap: 18px;
 }
 
 .company{
@@ -856,7 +856,7 @@ h1{
     display: flex;
     gap: 16px;
     align-items: center;
-    max-width: 321px;
+    line-height: 1.5;
     
 }
 
