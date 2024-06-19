@@ -276,15 +276,16 @@ h1{
 .img-card{
 
     display:flex;
-    position: relative;
+    column-gap: 25px;
+    /* position: relative; */
 }
 
 
 .imgtext1{
     background-color: #fff;
-    display: grid;
-    margin-left: 25px;
-    gap:10px;
+    display: flex;
+    flex-direction: column;
+    row-gap:19px;
 }
 
 
@@ -453,7 +454,7 @@ h1{
 }
 
 .sale-label{
-    height: 24px;
+    /* height: 24px; */
     background-color:#E74040;
     position: absolute;
     border-radius: 3px;
@@ -469,15 +470,16 @@ h1{
     color:#FFFFFF;
     font-weight: 700;
     font-size: 14px;
-    padding:10px 10px;
+    padding:5px 10px;
 }
 
 .icon{
     display: flex;
     position: absolute;
     gap:10px;
-    bottom: 25px;
-    left: 35px;
+    top:325px;
+    /* left: 35px; */
+    width:100%;
     justify-content: center;
 }
 
@@ -694,7 +696,7 @@ h1{
 .socialmedia{
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -1007,4 +1009,8 @@ body{
 }
 .star-icon span{
     color: #F3CD03;
+}
+
+.position-relative{
+    position: relative;
 }
