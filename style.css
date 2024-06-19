@@ -300,12 +300,13 @@ h1{
 }
 
 .firstrow{
-    height:26px;
+    /* height:26px; */
     display:flex;
-    text-align: center;
+    /* text-align: center; */
     justify-content:space-between;
     padding-top: 10px;
-    gap:10px;
+    align-items: center;
+    /* gap:10px; */
 }
 
 .pain{
@@ -314,15 +315,19 @@ h1{
     color:#1BA0AB;
 }
 
-.painless{
+.clr-txt {
     display: flex;
     align-items: center;
+    overflow: hidden;
+    max-width: 148px;
 }
 
-
-.examination{
+.bld-txt{
     font-size: 16px;
+    max-width: 169px;
+    overflow: hidden;
 }
+
 
 .width{
     font-weight: 400;
@@ -345,6 +350,8 @@ h1{
 .sales{
     font-size: 12px;
     color:#737373;
+    overflow: hidden;
+    max-width: 100px;
 }
 
 .prices{
@@ -360,6 +367,8 @@ h1{
 
 .yellowdollor{
     color:#F69B25;
+    max-width: 100px;
+    overflow: hidden;
 }
 
 .frame{
@@ -380,10 +389,12 @@ h1{
     color: #1BA0AB;
 }
 
-.hours{
+.sm-txt{
     font-size: 12px;
     font-weight: 400;
     color:#737373;
+    max-width: 66px;
+    overflow: hidden;
 }
 
 .calender{
@@ -422,16 +433,17 @@ h1{
     color:#737373;
 }
 
-.lr-btn{
-    height:44px;
-    width:141.14px;
+.lr-btn {
+    /* height: 44px; */
+    max-width: 141.14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#1BA0AB;
+    color: #1BA0AB;
     border-radius: 37px;
     background: transparent;
     border: 1px solid #1BA0AB;
+    padding: 9px;
 }
 
 .ratingnum{
@@ -1013,4 +1025,9 @@ body{
 
 .position-relative{
     position: relative;
+}
+
+.greydollor{
+    max-width: 100px;
+    overflow: hidden;
 }
