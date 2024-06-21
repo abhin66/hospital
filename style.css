@@ -456,7 +456,9 @@ h1{
     padding: 9px;
     gap:0px;
 }
-
+.wrap{
+    max-width: 30px;
+}
 .btn-curve span{
     color: #1BA0AB;
 }
