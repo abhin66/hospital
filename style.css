@@ -444,16 +444,21 @@ h1{
     color:#737373;
 }
 
-.lr-btn {
+.btn-curve{
     max-width: 141.14px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     color: #1BA0AB;
     border-radius: 37px;
     background: transparent;
     border: 1px solid #1BA0AB;
     padding: 9px;
+    gap:0px;
+}
+
+.btn-curve span{
+    color: #1BA0AB;
 }
 
 .ratingnum{
