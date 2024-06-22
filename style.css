@@ -35,7 +35,7 @@ li{
 
 .menu-contents{
     display: flex;
-    color:#737373;
+    /* color:#737373; */
     align-items: center;
     padding:15px 15px;
     /* transition: 0.5s; */
@@ -43,13 +43,16 @@ li{
 
 }
 
-.menu-contents:hover{
+.menu a:hover{
     background-color: #1BA0AB;
     /* color:white; */
     color:white;
     transition: 0.3s;
     
 
+}
+.img-no-width{
+    max-width: none;
 }
 
 .btn-section{
@@ -282,9 +285,8 @@ h1{
 }
 
 .reference-cards{
-    display: grid;
-    gap:100px;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-card{
@@ -1075,4 +1077,17 @@ body{
 .fa-stethoscope{
     color: white;
     font-size: 30px;
+}
+.icon-gap{
+    gap: 7px;
+}
+.fa-caret-down{
+    color:#737373;
+    font-size: 15px;
+}
+.logo{
+    font-size: 24px;
+}
+.menu a{
+    color:#737373;
 }
