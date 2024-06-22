@@ -22,7 +22,19 @@
             <h3 class="logo">Medical Core</h3>
             <ul style="display: flex; align-items: center;">
                 <li ><a class="menu-contents" href="#">Home</a></li>
-                <li ><a class="menu-contents icon-gap" href="#">Product<i class="fa-solid fa-caret-down"></i></a></li>
+                <li ><a class="menu-contents icon-gap hover" href="#">Product<i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown">
+                    <li class="products">Product 1</li>
+                    <li class="products">Product 2</li>
+                    <li class="products sub-dropdown">Product 3<i class="fa-solid fa-xmark"></i></li>
+                        <ul class="dropdown-sub">
+                            <li class="products">Product 1</li>
+                            <li class="products">Product 2</li>
+                            <li class="products">Product 3</li>
+                            <li class="products">Product 4</li>
+                        </ul>
+                    <li class="products">Product 4</li>
+                </ul></li>
                 <li ><a class="menu-contents" href="#">Pricing</a></li>
                 <li ><a class="menu-contents" href="#">Contact</a></li>    
             </ul>

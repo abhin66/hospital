@@ -41,18 +41,18 @@ li{
     /* color:#737373; */
     align-items: center;
     padding:15px 15px;
-    /* transition: 0.5s; */
-    
-
 }
 
 .menu a:hover{
     background-color: #1BA0AB;
-    /* color:white; */
     color:white;
-    transition: 0.3s;
-    
-
+    transition: 0.3s; 
+}
+.hover:hover ~ .dropdown{
+    display: flex;
+}
+.hover:hover > .fa-caret-down{
+    transform: rotate(-180deg);
 }
 .img-no-width{
     max-width: none;
@@ -1092,4 +1092,61 @@ body{
 }
 .menu a{
     color:#737373;
+}
+.dropdown{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    display: none;
+    padding-inline-start: 0;
+    
+}
+.dropdown-sub{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    display: none;
+    padding-inline-start: 0;
+}
+.fa-caret-down{
+    transition: transform .5s;
+}
+.products{
+    padding:15px;
+    background-color: #FFFFFF;
+    color:#1BA0AB;
+}
+.dropdown-sub{
+    left: 130px;
+    /* padding: 15px; */
+    top: 100px;
+    min-width: 115px;
+}
+.dropdown:hover{
+    display: flex;
+}
+.dropdown li:hover{
+    background-color: #1BA0AB;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+.sub-dropdown{
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    
+}
+.fa-xmark{
+    rotate:45deg;
+    transition: transform .5s;
+    font-size: 15px;
+}
+.sub-dropdown:hover > .fa-xmark{
+    transform: rotate(45deg);
+}
+.sub-dropdown:hover ~ .dropdown-sub{
+    display: flex;
+}
+.dropdown-sub:hover{
+    display: flex;
 }
