@@ -792,11 +792,11 @@ h1{
 }
 
 .input-txt{
-    width: 571px;
+    width: 100% ;
     background-color:#F9F9F9;
     border: 1px solid #E6E6E6;
     outline:none;
-    padding-left:20px;
+    padding:20px;
     font-size: 15px;
     font-weight: 400;
     border-top-left-radius: 5px;
@@ -805,7 +805,7 @@ h1{
 }
 
 .subscribe{
-    width: 117px;
+    padding:20px;
     background-color: var(--primary-color);
     border:none;
     font-size: 14px;
@@ -824,7 +824,7 @@ h1{
 }
 
 .information{
-    height:58px;
+    width:70%;
     display: flex;
 }
 
