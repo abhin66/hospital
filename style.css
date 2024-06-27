@@ -17,6 +17,11 @@ h1,h2,h3,h4,h5,h6,p{
     padding:0px;
 
 }
+.menu-data{
+    display: flex; 
+    align-items: center;
+}
+
 h1,h2,h3,h4,h5,h6{
     color:var(--secondary-color);
 }
@@ -110,6 +115,10 @@ img{
     flex-direction: column;
 
 }
+/* .center{
+    max-width: 673px;
+    text-align: center;
+} */
 
 .image{
     padding-top: 5px;
@@ -265,7 +274,8 @@ h1{
 
 .padding{
     max-width: 381px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 38px;
     padding-right:0px;
 }
@@ -517,8 +527,7 @@ h1{
     display: flex;
     position: absolute;
     gap:10px;
-    top:325px;
-    /* left: 35px; */
+    bottom:45px;
     width:100%;
     justify-content: center;
 }
@@ -597,9 +606,10 @@ h1{
 }
 
 .container-data{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 34px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .employee{
@@ -745,6 +755,7 @@ h1{
 .members{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    width: 100%;
 }
 
 .fa-instagram:before{
@@ -929,12 +940,6 @@ h1{
     justify-content: center;
 }
 
-/* .social-media{
-    display: flex;
-    justify-content: center;
-    gap:20px;
-
-}*/
 .all{
     background-color:var(--primary-bg-color);
 }
@@ -997,10 +1002,6 @@ h1{
 body{
     margin:0;
     padding:0;
-}
-.navbar-container{
-    margin: auto;
-    max-width: 1080px;
 }
 
 .section-gap{
@@ -1156,3 +1157,9 @@ body{
 .dropdown-sub:hover{
     display: flex;
 }
+.menu span{
+    display:none;
+}
+/* .emp-img{
+    width:100%;
+} */
