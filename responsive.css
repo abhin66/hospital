@@ -10,12 +10,12 @@
         padding: 0px 20px;
     }
 }
-@media only screen and (max-width:1020px){
+/* @media only screen and (max-width:1020px){
     .img-card{
         gap:20px;
     }
 
-}
+}*/
 @media only screen and (max-width:1005px){
     .hero-img{
         display: none;
@@ -58,7 +58,7 @@
     }
 
 }
-@media only screen and (max-width:1000px){
+/* @media only screen and (max-width:1000px){
     .menu{
         gap:0px;
     }
@@ -92,13 +92,13 @@
     .menu{
         gap:45px;
     }
-}
-@media only screen and (max-width:1015px){
+}*/
+@media only screen and (max-width:1100px){
     .menu{
-        gap:35px;
+        gap:0px;
     }
 }
-@media only screen and (max-width:979px){
+/* @media only screen and (max-width:979px){
     .menu{
         gap:20px;
     }
@@ -107,19 +107,19 @@
     .menu{
         gap:0px;    
     }
-}
+} */ 
 @media only screen and (max-width:901px){
     .menu-data{
-        display:flex;
         visibility: hidden;
         position:absolute;
+        opacity: 0;
         flex-direction: column;
         top:55px;
         background-color:var(--secondary-color);
         margin:0;
         padding:0;
-        left:0;
-        /* display: none; */
+        left:-265px;
+        transition: all 0.3s ease-in-out;
     }
     .menu span{
         display:contents;
@@ -139,10 +139,55 @@
     .borderless{
         display: none;
     }
-}
-@media only screen and (max-width:900px){
+    #menu-toggle:checked ~ .menu-data {
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+        left: 0px;
+    }
+    #sub-menu-toggle:checked ~ .dropdown-sub{
+        display: flex;
+    }
+    #menu-product:checked ~ .dropdown{
+        display: flex;
+        
+    }
+    #menu-product{
+        display: none;
+    }
+    .products{
+        padding:20px 82px;
+    }
+    #sub-menu-toggle{
+        display: none;
+    }
+    #sub-menu-toggle:checked ~ .sub-dropdown i{
+        /* display: flex; */
+        transform: rotate(-48deg)
+    }
+    #menu-toggle:checked ~ .menu-icon .bar-center{
+        opacity: 0;
+    }
+    #menu-toggle:checked ~ .menu-icon .bar-top {
+        transform: rotate(45deg) translate(5px, 3px);
+    }
+    #menu-toggle:checked ~ .menu-icon .bar-bottom {
+        transform: rotate(-48deg) translate(9px, -5px);
+    }
+    .menu-icon div{
+        transition: 0.3s ease;
+    }
+    .menu-icon div{
+        display:flex;
+    }
     .nxt-line{
         max-width: 125px;
+    }
+    .dropdown{
+        position: relative;
+    }
+    .dropdown-sub{
+        position: static;
     }
 }
 @media only screen and (max-width:862px){

@@ -19,15 +19,24 @@
     <div class="container">
         <nav>
             <div class="menu">
-            <span><a><i class="fa-solid fa-bars"></i></a></span>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <div class="bar-top"></div>
+                <div class="bar-center"></div>
+                <div class="bar-bottom"></div>
+            </label>
             <h3 class="logo">Medical Core</h3>
             <ul class="menu-data">
                 <li ><a class="menu-contents" href="#">Home</a></li>
-                <li ><a class="menu-contents icon-gap hover" href="#">Product<i class="fa-solid fa-caret-down"></i></a>
+                <input type="checkbox" id="menu-product">
+                <label for="menu-product" class="menu-label hover">
+                <li ><a class="menu-contents icon-gap " href="#">Product<i class="fa-solid fa-caret-down"></i></a></li></label>
                 <ul class="dropdown">
                     <li class="products">Product 1</li>
                     <li class="products">Product 2</li>
-                    <li class="products sub-dropdown">Product 3<i class="fa-solid fa-xmark"></i></li>
+                    <input type="checkbox" id="sub-menu-toggle">
+                    <label for="sub-menu-toggle" class="sub-menu sub-dropdown">
+                    <li class="products sub-dropdown">Product 3<i class="fa-solid fa-xmark"></i></li></label>
                         <ul class="dropdown-sub">
                             <li class="products">Product 1</li>
                             <li class="products">Product 2</li>
@@ -168,6 +177,7 @@
                 
 
                         <div class="position-relative">
+                            <div class="relative">
                             <img class="img-no-width" src="product-cover-233 sec-.png" alt="image">
                             <div class="sale-label">
                                 <p class="sale">Sales</p>
@@ -183,10 +193,8 @@
                                     <span class="material-symbols-outlined">visibility</span>
                                 </button>
                             </div>
-    
-                    
-            
-                </div>
+                            </div>
+                        </div>
                     <div class="imgdata">
                         <div class="firstrow">
                         <div class="clr-txt">
@@ -237,6 +245,7 @@
                 <div class="img-card">
                    
                     <div class="position-relative">
+                        <div class="relative">
                         <img class="img-no-width" src="product-cover-232 sec-.png" alt="image">
                         <div class="sale-label">
                             <p class="sale">Sales</p>
@@ -252,10 +261,8 @@
                                 <span class="material-symbols-outlined">visibility</span>
                             </button>
                         </div>
-
-                
-        
-            </div>
+                        </div>
+                    </div>
 
                     <div class="imgdata">
                         <div class="firstrow">
