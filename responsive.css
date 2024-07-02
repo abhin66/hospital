@@ -1,3 +1,31 @@
+@media only screen and (min-width:901px){
+    .menu a:hover{
+        background-color: var(--primary-color);
+        color:white;
+        transition: 0.3s; 
+    }
+    .dropdown li:hover{
+        background-color: var(--primary-color);
+        color: #FFFFFF;
+        transition: 0.3s;
+    }
+    .dropdown:hover{
+        display: flex;
+    }
+    #sub-menu-toggle:hover ~ .dropdown-sub{
+        display: flex;
+    }
+    .menu-contents:hover ~ .dropdown{
+        display: flex ;
+    }
+    .sub-dropdown:hover > .fa-xmark{
+        transform: rotate(45deg);
+    }
+    .sub-dropdown:hover ~ .dropdown-sub{
+        display: flex;
+    }
+}
+
 @media only screen and (max-width:1230px){
     .container-xl{
         margin:auto;
@@ -10,12 +38,7 @@
         padding: 0px 20px;
     }
 }
-/* @media only screen and (max-width:1020px){
-    .img-card{
-        gap:20px;
-    }
 
-}*/
 @media only screen and (max-width:1005px){
     .hero-img{
         display: none;
@@ -58,56 +81,13 @@
     }
 
 }
-/* @media only screen and (max-width:1000px){
-    .menu{
-        gap:0px;
-    }
-}
-@media only screen and (max-width:1031px){
-    .menu{
-        gap:40px;
-    }
-}
-@media only screen and (max-width:1095px){
-    .menu{
-        gap:60px;
-    }
-}
-@media only screen and (max-width:1030px){
-    .menu{
-        gap:0px;
-    }
-}
-@media only screen and (max-width:1000px){
-    .menu{
-        gap:30px;
-    }
-}
-@media only screen and (max-width:1055px){
-    .menu{
-        gap:50px;
-    }
-}
-@media only screen and (max-width:1060px){
-    .menu{
-        gap:45px;
-    }
-}*/
+
 @media only screen and (max-width:1100px){
     .menu{
         gap:0px;
     }
 }
-/* @media only screen and (max-width:979px){
-    .menu{
-        gap:20px;
-    }
-}
-@media only screen and (max-width:960px){
-    .menu{
-        gap:0px;    
-    }
-} */ 
+
 @media only screen and (max-width:901px){
     .menu-data{
         visibility: hidden;
@@ -147,17 +127,18 @@
     }
     #sub-menu-toggle:checked ~ .dropdown-sub{
         display: flex;
-    }
-    #menu-product:checked ~ .dropdown{
-        display: flex;
         
     }
-    #menu-product{
-        display: none;
+     #menu-product:checked ~.dropdown{
+        display: flex;
     }
     .products{
         padding:20px 82px;
+        gap: 5px;
+        display: flex;
+        align-items: center;
     }
+
     #sub-menu-toggle{
         display: none;
     }
@@ -185,6 +166,8 @@
     }
     .dropdown{
         position: relative;
+        top:0;
+        left:0;
     }
     .dropdown-sub{
         position: static;
