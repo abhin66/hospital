@@ -111,13 +111,16 @@
         gap:20px;
     }
     .menu-contents{
-        padding:20px 92.5px;
+        padding:20px 92.5px 20px 20px;
     }
     .heropage-content{
         padding:100px 0px;  
     }
-    .container{
-        padding-top:10px;   
+    .x{
+        padding:0px;   
+    }
+    nav{
+        padding:10px 25px;
     }
     .borderless{
         display: none;
@@ -127,6 +130,8 @@
         opacity: 1;
         visibility: visible;
         left: 0px;
+        height: 300px;
+        overflow: auto;
     }
     #sub-menu-toggle:checked ~ .dropdown-sub{
         display: flex;
@@ -136,7 +141,7 @@
         display: flex;
     }
     .products{
-        padding:20px 82px;
+        padding: 20px 82px 20px 30px;
         gap: 5px;
         display: flex;
         align-items: center;
@@ -178,13 +183,13 @@
         position: static;
     }
     .pd-xl{
-        padding: 20px 108px;
+        padding: 20px 108px 20px 20px;
     }
     .pd-m{
-        padding:20px 104px;
+        padding:20px 104px 20px 20px;
     }
     .pd-sm{
-        padding: 20px 100px;
+        padding: 20px 100px 20px 20px;
     }
     .display{
         display: flex;
@@ -193,6 +198,7 @@
         background-color: var(--primary-color);
         color: white;   
         margin-top: 5px;
+        font-size: 18px;
     }
     .menu-product{
         display: flex;
@@ -206,6 +212,14 @@
     }
     .menu a {
         color: #fff;
+    }
+    .extra-pd{
+        padding-left:40px;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        z-index:999;
     }
 
 }
@@ -314,6 +328,13 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .x{
+        padding:0;
+    }
+    nav{
+        padding-left:10px;
+        padding-right:10px;
+    }
     .sm {
         font-size: 30px;
     }
@@ -329,7 +350,7 @@
 
 @media only screen and (max-width:340px){
     .container-xl{
-        padding:0px 15px;
+        padding:0px 10px;
     }
     .menu{
         gap:10px;
