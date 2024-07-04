@@ -140,6 +140,8 @@
         gap: 5px;
         display: flex;
         align-items: center;
+        background-color: #252B42;
+        color:#FFFFFF;  
     }
 
     #sub-menu-toggle{
@@ -201,6 +203,9 @@
         display: flex;
         flex-direction: column;
         gap:5px;
+    }
+    .menu a {
+        color: #fff;
     }
 
 }
