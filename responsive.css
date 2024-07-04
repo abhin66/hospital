@@ -24,6 +24,9 @@
     .sub-dropdown:hover ~ .dropdown-sub{
         display: flex;
     }
+    .display{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:1230px){
@@ -108,7 +111,7 @@
         gap:20px;
     }
     .menu-contents{
-        padding:25px 90px;
+        padding:20px 92.5px;
     }
     .heropage-content{
         padding:100px 0px;  
@@ -172,7 +175,36 @@
     .dropdown-sub{
         position: static;
     }
+    .pd-xl{
+        padding: 20px 108px;
+    }
+    .pd-m{
+        padding:20px 104px;
+    }
+    .pd-sm{
+        padding: 20px 100px;
+    }
+    .display{
+        display: flex;
+        padding: 20px 114px;
+        border-radius: 0;
+        background-color: var(--primary-color);
+        color: white;   
+        margin-top: 5px;
+    }
+    .menu-product{
+        display: flex;
+        align-items: center;
+        gap:5px;
+    }
+    .menu-icon{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+
 }
+
 @media only screen and (max-width:862px){
     .center{
         max-width: 673px;
@@ -280,7 +312,16 @@
     .sm {
         font-size: 30px;
     }
+    .display {
+        display: flex;
+        padding: 20px 114px;
+        border-radius: 0;
+        background-color: var(--primary-color);
+        color: white;
+        margin-top: 5px;
+    }
 }
+
 @media only screen and (max-width:340px){
     .container-xl{
         padding:0px 15px;
