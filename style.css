@@ -1133,10 +1133,10 @@ body{
     color:var(--primary-color);
 }
 .dropdown-sub{
-    left: 130px;
+    left: 128px;
     /* padding: 15px; */
     top: 100px;
-    min-width: 115px;
+    min-width: 152px;
 }
 .dropdown{
     display: none;
